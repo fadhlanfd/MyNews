@@ -1,0 +1,36 @@
+.list-article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .list-article-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+  
+  .list-article-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .list-article-card {
+    width: 300px;
+    margin: 10px;
+  }
+  
+  .list-article-image {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  .list-article-pagination {
+    margin-top: 20px;
+  }
+  
